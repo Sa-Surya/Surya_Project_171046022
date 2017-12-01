@@ -157,8 +157,8 @@ The working has two phases,
  Run the "streamTweets.py" module from terminal to fetch raw data from twitter which is in json format.
 
  command: python streamTweets.py
- 
-  Stop the script manually after collecting sufficient data.
+
+ Stop the script manually after collecting sufficient data.
 
  The retrieved data is stored in a .csv file which was given before execution.
 
@@ -166,9 +166,9 @@ The working has two phases,
  
  --------
 
- Run the "tweetAnalysis.py" module from the terminal to clean, classify and visualize the data which is in json format stored in the .csv file.
+Run the "tweetAnalysis.py" module from the terminal to clean, classify and visualize the data which is in json format stored in the .csv file.
 
- command: python tweetAnalysis.py 
+ command: python tweetAnalysis.py 
 
 
 TROUBLESHOOTING
@@ -180,11 +180,11 @@ For Twitter’s purposes, stream disconnections are grouped into two categories 
 
 1) Client disconnects
 
-   Client disconnects occur when the application independently terminates the connection to the data stream, whether because the code actively closes the connection, or where network settings or conditions terminate the connection.
+Client disconnects occur when the application independently terminates the connection to the data stream, whether because the code actively closes the connection, or where network settings or conditions terminate the connection.
 
 2) Forced disconnects
 
-   Forced Disconnections occur when twitter's system actively disconnects client's app from the stream. There are 3 different types of forced disconnects.
+Forced Disconnections occur when twitter's system actively disconnects client's app from the stream. There are 3 different types of forced disconnects.
 
    a) Full Buffer – app is not reading the data fast enough, or a network bottleneck is slowing data flow.
 
@@ -198,11 +198,11 @@ FREQUENTLY ASKED QUESTIONS - FAQ
 
 1) Why is there a error(disconnection) while fetching data?
 
-   Either the network connection is very poor or there is a forced disconnection from twitter's end. Depending on the severity, connections can be re-established either after 15 minutes or 24 hours later.
+Either the network connection is very poor or there is a forced disconnection from twitter's end. Depending on the severity, connections can be re-established either after 15 minutes or 24 hours later.
 
 2) Why is the line chart(3rd graph) too dense?
 
-   Large amount of data plotted on that particular graph leads to very dense plot in both positive and negative ends. Zooming the graph can give significant difference.
+Large amount of data plotted on that particular graph leads to very dense plot in both positive and negative ends. Zooming the graph can give significant difference.
 
 
 MAINTAINERS
