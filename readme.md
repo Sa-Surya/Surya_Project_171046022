@@ -154,19 +154,20 @@ The working has two phases,
  
  --------
 
- Run the "streamTweets.py" module from terminal to fetch raw data from twitter which is in json format.
-
- command: python streamTweets.py
-
+ Run the "streamTweets.py" module from terminal to fetch raw data from twitter which is in json format.
+ 
+ command: python streamTweets.py
+ 
  Stop the script manually after collecting sufficient data.
-
- The retrieved data is stored in a .csv file which was given before execution.
+ 
+ The retrieved data is stored in a .csv file which was given before execution.
 
  Phase 2:
  
  --------
 
-Run the "tweetAnalysis.py" module from the terminal to clean, classify and visualize the data which is in json format stored in the .csv file.
+ Run the "tweetAnalysis.py" module from the terminal to clean, classify and visualize the data which is in json format stored
+ in the .csv file.
 
  command: python tweetAnalysis.py 
 
@@ -184,7 +185,7 @@ Client disconnects occur when the application independently terminates the conne
 
 2) Forced disconnects
 
-Forced Disconnections occur when twitter's system actively disconnects client's app from the stream. There are 3 different types of forced disconnects.
+Forced Disconnections occur when twitter's system actively disconnects client's app from the stream. There are 3 differen types of forced disconnects.
 
    a) Full Buffer – app is not reading the data fast enough, or a network bottleneck is slowing data flow.
 
