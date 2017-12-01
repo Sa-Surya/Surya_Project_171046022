@@ -24,15 +24,11 @@ Twitter : Social Media and Text Analytics
 INTRODUCTION
 ------------------
 
-This project was aimed to implement four concepts, mainly distributed computing, 
+This project was aimed to implement four concepts, mainly distributed computing, machine learning, data retrieval and 
 
-machine learning, data retrieval and visualization. In the end, the results provide
+visualization. In the end, the results provide visual artifact on a given topic which can be used for later analysis.
 
-visual artifact on a given topic which can be used for later analysis.
-
-Note: For detailed information on the project flow, please refer the report provided in the 
-
-repository.
+Note: For detailed information on the project flow, please refer the report provided in the repository.
 
 
 REQUIREMENTS
