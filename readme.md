@@ -191,7 +191,7 @@ Forced Disconnections occur when twitter's system actively disconnects client's 
 
    a) Full Buffer – app is not reading the data fast enough, or a network bottleneck is slowing data flow.
 
-   b) Too many connections – app established too many simultaneous connections to the data stream in a short period.
+   b) Too many connections – established too many simultaneous connections to data stream in a short period.
 
    c) Server Maintenance – the Twitter team deployed a change or update to the system servers.
 
