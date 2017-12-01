@@ -71,7 +71,8 @@ The modules require following packages and libraries for successful execution:
 
  Install system-wide via a Linux package manager:
  command:
- sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook      python-pandas python-sympy python-nose
+ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook 
+ python-pandas python-sympy python-nose
 
  (above command also installs matplotlib and scipy)
 --------------------------------------------------------
@@ -94,7 +95,7 @@ Authentication:
 In order to fetch tweets through Twitter Streaming API, one needs to register an App through the twitter account. Follow these steps for the same:
 
  1) Open this link:
- 	https://apps.twitter.com/
+ 	  https://apps.twitter.com/
 
     and click the button: ‘Create New App’
 
