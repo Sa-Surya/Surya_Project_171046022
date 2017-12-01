@@ -114,7 +114,7 @@ The modules require following packages and libraries for successful execution:
 
 --------------------------------------------------------
 
- Note: The above commands are for Linux distributions with an in-built terminal (command line interface) except for macOS. Alternative commands to install these packages and libraries for Windows and macOS can be found online in there respective documentation section of homepage.
+Note: The above commands are for Linux distributions with an in-built terminal (command line interface) except for macOS. Alternative commands to install these packages and libraries for Windows and macOS can be found online in there respective documentation section of homepage.
 
 
 CONFIGURATION
@@ -158,7 +158,7 @@ The working has two phases,
 
  command: python streamTweets.py
  
- Stop the script manually after collecting sufficient data.
+  Stop the script manually after collecting sufficient data.
 
  The retrieved data is stored in a .csv file which was given before execution.
 
