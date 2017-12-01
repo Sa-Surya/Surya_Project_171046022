@@ -169,6 +169,7 @@ The working has two phases,
 2) Cleaning, Classifying and Visualizing the retrieved data.
 
  Phase 1: 
+ 
  --------
 
  Run the "streamTweets.py" module from terminal to fetch raw data from twitter which is in json format.
@@ -182,6 +183,7 @@ The working has two phases,
  The retrieved data is stored in a .csv file which was given before execution.
 
  Phase 2:
+ 
  --------
 
  Run the "tweetAnalysis.py" module from the terminal to clean, classify and visualize the data which is in json format stored in the .csv file.
