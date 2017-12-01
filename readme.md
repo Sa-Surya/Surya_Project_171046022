@@ -50,9 +50,7 @@ The modules require following packages and libraries for successful execution:
 
  (this is a package manager required to install other packages and libraries)
 
- command:
-
- python -mpip install -U pip
+ command: python -mpip install -U pip
 
 -------------------------------------------------------- 
 
@@ -78,15 +76,11 @@ The modules require following packages and libraries for successful execution:
 
  ***TextBlob***
 
- command:
-
- pip install -U textblob
+ command: pip install -U textblob
 
  To download necessary corpora:
 
- command:
-
- python -m textblob.download_corpora
+ command: python -m textblob.download_corpora
 
 --------------------------------------------------------
 
@@ -94,9 +88,7 @@ The modules require following packages and libraries for successful execution:
 
  Installing from PyPI:
 
- command:
-
- pip install pandas
+ command: pip install pandas
 
 --------------------------------------------------------
 
@@ -104,15 +96,11 @@ The modules require following packages and libraries for successful execution:
 
  Installing via pip:
 
- command:
-
- python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
+ command: python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
 
  Install system-wide via a Linux package manager:
 
- command:
-
- sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+ command: sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
  (above command also installs matplotlib and scipy)
 
@@ -122,9 +110,7 @@ The modules require following packages and libraries for successful execution:
 
  Install via pip:
 
- command:
-
- python -mpip install -U matplotlib
+ command: python -mpip install -U matplotlib
 
 --------------------------------------------------------
 
@@ -170,9 +156,7 @@ The working has two phases,
 
  Run the "streamTweets.py" module from terminal to fetch raw data from twitter which is in json format.
 
- command: 
-
- python streamTweets.py
+ command: python streamTweets.py
  
  Stop the script manually after collecting sufficient data.
 
@@ -184,9 +168,7 @@ The working has two phases,
 
  Run the "tweetAnalysis.py" module from the terminal to clean, classify and visualize the data which is in json format stored in the .csv file.
 
- command: 
-
- python tweetAnalysis.py 
+ command: python tweetAnalysis.py 
 
 
 TROUBLESHOOTING
