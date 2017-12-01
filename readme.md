@@ -100,7 +100,9 @@ The modules require following packages and libraries for successful execution:
 
  Install system-wide via a Linux package manager:
 
- command: sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+ command:
+ 
+ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python nose
 
  (above command also installs matplotlib and scipy)
 
@@ -185,7 +187,7 @@ Client disconnects occur when the application independently terminates the conne
 
 2) Forced disconnects
 
-Forced Disconnections occur when twitter's system actively disconnects client's app from the stream. There are 3 differen types of forced disconnects.
+Forced Disconnections occur when twitter's system actively disconnects client's app from the stream. There are 3 different types of forced disconnects.
 
    a) Full Buffer – app is not reading the data fast enough, or a network bottleneck is slowing data flow.
 
