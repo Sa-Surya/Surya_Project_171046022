@@ -2,6 +2,7 @@ Sentimentalytics
 
 Twitter : Social Media and Text Analytics
 
+(prediction of sentiment in english sentences)
  
 
  * Introduction
